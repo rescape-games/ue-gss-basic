@@ -42,7 +42,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Grid")
 	FTile GetNearestTile(
-		UObject* TraceRefObject = nullptr,
+		UObject* TraceRefObject,
 		UObject* PreviewObject = nullptr,
 		FVector2D GridBounds = FVector2D(20000.0f, 20000.0f),
 		int32 TileSize = 100,
